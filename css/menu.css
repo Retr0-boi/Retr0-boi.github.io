@@ -1,0 +1,123 @@
+
+body,html{width:100%;overflow-x:hidden}nav ul{margin:0;padding:0;list-style:none}nav ul li a{font-size:14px;text-transform:uppercase;display:block;padding:20px 0 20px 20px;text-decoration:none;color:#fff;border-bottom:1px solid #333}nav ul li:last-child a{border-bottom:0}nav ul li a.current,nav ul li a:hover{text-decoration:none;color:#999;background-color:rgba(0,0,0,.2)}nav ul li .sub-menu{display:none;margin-top:20px}.has-sub span{margin-left:20px;font-size:10px}nav ul li .sub-menu a{font-size:12px;padding:10px 40px;border:0}nav ul li .sub-menu a:hover{background-color:transparent}.ham{margin-top:16px;width:15px;z-index:20;height:24px;float:right;display:inline-block;position:relative;-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0);cursor:pointer}.ham-line{display:block;position:absolute;height:2px;width:32px;background:#fff;opacity:1;left:0;-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0);-webkit-transition:.1s ease-in-out;-moz-transition:.1s ease-in-out;-o-transition:.1s ease-in-out;transition:.1s ease-in-out}.sb-active nav{right:0}.ham-line:nth-child(1){top:0;width:15px}.ham-line:nth-child(2),.ham-line:nth-child(3){top:8px;width:20px}.ham-line:nth-child(4){top:16px}.sb-active .ham-line:nth-child(1){top:8px;width:0%;left:50%}.sb-active .ham-line:nth-child(2){-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}.sb-active .ham-line:nth-child(3){-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}.sb-active .ham-line:nth-child(4){top:8px;width:0%;left:50%}
+
+
+
+.call-now {
+  color: #4e8444
+}
+
+.mypage-alo-phone {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  visibility: visible;
+  background-color: transparent;
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+  z-index: 200000 !important
+}
+
+.mypage-alo-ph-circle {
+  width: 90px;
+  height: 90px;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  background-color: transparent;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  border: 2px solid rgba(30, 30, 30, .4);
+  opacity: .1;
+  border-color: #735b4b;
+  opacity: .5
+}
+
+.mypage-alo-ph-circle-fill {
+  width: 60px;
+  height: 60px;
+  top: 28px;
+  left: 28px;
+  position: absolute;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  background-color:  rgb(42 32 22 / 77%);
+  opacity: .75 !important
+}
+
+.mypage-alo-ph-img-circle {
+  width: 30px;
+  height: 30px;
+  top: 43px;
+  left: 43px;
+  position: absolute;
+  background: rgba(30, 30, 30, .1) url(../images/phone-outline.png) no-repeat center center;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  opacity: .7;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  background-color: #006f19;
+  background-size: 70%
+}
+
+.mypage-alo-phone-2 {
+  position: fixed;
+  left: 0;
+  bottom: 102px;
+  visibility: visible;
+  background-color: transparent;
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+  z-index: 200000 !important
+}
+
+.mypage-alo-ph-img-circle-2 {
+  width: 30px;
+  height: 30px;
+  top: 43px;
+  left: 43px;
+  position: absolute;
+  background: rgba(30, 30, 30, .1) url(../images/svg/whatsapp.png) no-repeat center center;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  opacity: .7;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  background-color: #006f19;
+  background-size: 70%
+}
