@@ -5314,7 +5314,7 @@ th {
 body {
   background: #fff none repeat scroll 0 0;
   color: #333;
-  font-family: Abel, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 16px
 }
 
@@ -5387,7 +5387,7 @@ h5,
 h6 {
   font-weight: 400;
   position: relative;
-  font-family: Abel, sans-serif
+  font-family: "Oswald", sans-serif
 }
 
 h1 {
@@ -5519,13 +5519,13 @@ button {
 
 .heading {
   padding-bottom: 20px;
-  color: #fbb515;
+  color: #f46521;
   letter-spacing: 1px;
   font-size: 30px
 }
 
 .heading:after {
-  width: 51px;
+  width: 0px;
   content: "";
   display: block;
   height: 1px;
@@ -5572,7 +5572,7 @@ label.error {
   top: 0;
   right: 0;
   bottom: 0;
-  background: #161616;
+  background: #332e32;
   z-index: 9999
 }
 
@@ -5661,6 +5661,12 @@ label.error {
 .row {
   margin-right: -15px;
   margin-left: -15px
+}
+
+.about-katic {
+  padding: 20px;
+  background:linear-gradient(to right, #dfdfdf00, #dfdfdfd5, #dfdfdf00); 
+  /* background:linear-gradient(to right, #dfdfdf, #00000000);  */
 }
 
 .col-lg-offset-12 {
@@ -5861,7 +5867,7 @@ label.error {
 
 .col-lg-6 {
   width: 50%;
-  color: #fbb515
+  color: #f46521
 }
 
 .col-lg-5 {
@@ -5934,12 +5940,12 @@ label.error {
   height: 0;
   border-style: solid;
   border-width: 50px 185px 0 185px;
-  border-color: #383838 transparent transparent transparent;
+  border-color: #332e32 transparent transparent transparent;
   position: absolute;
   bottom: -50px;
   left: 50%;
   margin-left: -185px;
-  z-index: 9
+  z-index: 9;
 }
 
 .btn,
@@ -6032,7 +6038,7 @@ nav {
   z-index: 19;
   width: 8rem;
   height: 100%;
-  background: #161616;
+  background: #332e32;
   padding: 70px 0;
   color: #fff;
   overflow-y: auto;
@@ -6059,7 +6065,7 @@ nav {
 }
 
 .menu-active {
-  border-bottom: 3px solid #fbb515
+  /* border-bottom: 3px solid #f46521 */
 }
 
 .logo {
@@ -6288,7 +6294,7 @@ nav {
 
 #promo {
   padding: 0 0 100px 0;
-  background: #161616
+  background: #332e32
 }
 
 #promo p {
@@ -6383,7 +6389,7 @@ nav {
 }
 
 #service h6 {
-  color: #fbb515;
+  color: #f46521;
   font-size: 13px;
   font-weight: 500;
   line-height: 13px;
@@ -6463,7 +6469,7 @@ nav {
 
 .member-item-outer,
 .p-item-outer {
-  background: #1616166b;
+  background: #332e326b;
   color: #fff;
   -webkit-transition: all .6s ease;
   -moz-transition: all .6s ease;
@@ -6629,7 +6635,7 @@ nav {
 }
 
 .news-info {
-  background: #161616 none repeat scroll 0 0;
+  background: #332e32 none repeat scroll 0 0;
   margin-left: auto;
   margin-right: auto;
   padding: 30px;
@@ -6736,7 +6742,7 @@ nav {
 }
 
 #contacts .bottom-separator {
-  border-color: #161616 transparent transparent;
+  border-color: #332e32 transparent transparent;
   bottom: auto;
   top: 0;
   z-index: 10
@@ -6794,7 +6800,7 @@ nav {
 
 .pop-wrap {
   top: 0;
-  background: #161616;
+  background: #332e32;
   color: #fff;
   padding: 100px 0 100px 0;
   z-index: 9;
@@ -6924,7 +6930,7 @@ img[src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5.png"] {
 }
 
 footer {
-  background-color: #161616;
+  background-color: #332e32;
   padding: 0 0 50px;
   position: relative
 }
@@ -6935,7 +6941,7 @@ footer .top-right-separator {
 
 .flogo {
   margin-bottom: 20px;
-  padding-top: 110px;
+  padding-top: 50px;
   text-align: left
 }
 
@@ -6959,7 +6965,14 @@ footer .top-right-separator {
   font-size: 18px;
   line-height: 18px
 }
-
+.social-left ul li{
+  /* position:absolute; */
+  display: inline-block;
+  /* top: 40px; */
+  /* left: 20px; */
+  font-size: 20px;
+  margin-right: 20px;
+}
 .social ul li a {
   color: #222
 }
@@ -7605,7 +7618,7 @@ a.cropcirles:hover {
 
   .member-item-outer,
   .p-item-outer {
-    background: #161616 none repeat scroll 0 0;
+    background: #332e32 none repeat scroll 0 0;
     color: #fff;
     height: 5%;
     margin: 0 auto auto;
@@ -7685,7 +7698,7 @@ ul.sub-menu li a:hover {
 
 ul#menu {
   list-style-type: none;
-  margin: 0 0 0 60%;
+  margin: 0 0 0 70%;
   padding: 0;
   position: absolute
 }
@@ -7704,7 +7717,7 @@ ul#menu li a {
   min-width: 0;
   text-align: center;
   text-decoration: none;
-  font-size: 13px;
+  /* font-size: 13px; */
   text-transform: uppercase;
   font-weight: 400 !important
 }
@@ -7742,7 +7755,7 @@ ul#menu li a:hover+.hidden {
 }
 
 .show-menu {
-  background: #161616 none repeat scroll 0 0;
+  background: #332e32 none repeat scroll 0 0;
   color: #fff;
   display: none;
   margin-top: 50px;
@@ -7769,7 +7782,7 @@ ul#menu li a:hover+.hidden {
   height: 50px;
   padding: 10px;
   width: 89%;
-  color: #fbb515;
+  color: #f46521;
   background: #00000078
 }
 
@@ -7785,7 +7798,7 @@ input[type=checkbox]:checked~#menu {
 
   .member-item-outer,
   .p-item-outer {
-    background: #161616 none repeat scroll 0 0;
+    background: #332e32 none repeat scroll 0 0;
     color: #fff;
     height: 6%;
     margin: 0 auto auto;
@@ -7795,6 +7808,7 @@ input[type=checkbox]:checked~#menu {
     width: 100%;
     padding-top: 10px
   }
+  
 }
 
 div#menuham {
@@ -7934,7 +7948,7 @@ input[type=submit]:hover {
 }
 
 ul#menu li a:hover {
-  border-bottom: 3px solid #fbb515
+  border-bottom: 3px solid #f46521
 }
 
 @media screen and (max-width:1285px) {
@@ -8002,7 +8016,7 @@ ul#menu li a:hover {
   cursor: pointer;
   height: auto;
   width: 102px;
-  color: #fbb515;
+  color: #f46521;
   border: none;
   font-size: 12px;
   background: 0 0
@@ -8398,6 +8412,8 @@ ul#menu li a:hover {
   }
 
   .col-sm-offset-right-0 {
+    padding: 20px;
+    background-color: #dfdfdf59;
     margin-right: 0
   }
 
@@ -8594,7 +8610,7 @@ ul#menu li a:hover {
 
   .error404 header,
   header {
-    background: #161616 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     color: #000;
     padding: 10px 15px
   }
@@ -9162,7 +9178,7 @@ nav ul li .sub-menu a:hover {
   position: absolute;
   height: 2px;
   width: 32px;
-  background: #fff;
+  background: #000000;
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0);
